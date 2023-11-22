@@ -124,3 +124,14 @@ img {
 .col-12.col-xl-6.mx-auto {
     margin-top: 1em; /* Asegúrate de que esta clase no afecte otros elementos con la misma clase */
 }
+.col-12 img {
+    margin-top: 20px;
+  }
+
+  .type-wrap h2 {
+    line-height: 1.5;
+  }
+
+  .row {
+    margin-top: 20px;
+  }
