@@ -5,7 +5,7 @@
     height: 100px;
     position: fixed;
     left: 50%;
-    top: 25%;
+    top: 45%;
     transform: translateY(-50%) translateX(-50%);
     background: center no-repeat #fff;
     z-index: 9999;
