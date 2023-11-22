@@ -114,3 +114,13 @@ img {
         margin: 0 auto; /* Center images on smaller screens */
     }
 }
+
+/* Clase específica para el contenedor de la torta, para agregar margen superior */
+.cake-container {
+    margin-top: 1em; /* Esto empujará la torta hacia abajo el equivalente al tamaño de la fuente actual */
+}
+
+/* O puedes aplicar el margen directamente a la clase existente si prefieres no agregar clases adicionales */
+.col-12.col-xl-6.mx-auto {
+    margin-top: 1em; /* Asegúrate de que esta clase no afecte otros elementos con la misma clase */
+}
