@@ -1,3 +1,5 @@
+/* Estilos generales y clases existentes */
+
 .loader button {
     width: 50%;
     height: 100px;
@@ -41,6 +43,7 @@
 
 body {
     background-color: #FFDAB9;
+    margin-top: -20px; /* Reducir espacio en la parte superior de la página */
 }
 
 img {
@@ -95,32 +98,31 @@ img {
 .type-wrap {
     font-size: 25px;
     color: #C4515C;
-    z-index: 100; /* This will ensure that the text is above other elements */
+    z-index: 100;
     position: relative;
 }
 
 @media screen and (max-width: 768px) {
     .area {
         font-size: 40px;
-        letter-spacing: normal; /* Adjusted for smaller screens */
+        letter-spacing: normal;
     }
 
     .type-wrap {
-        font-size: 20px; /* Adjusted for smaller screens */
+        font-size: 20px;
     }
 
     img {
         width: 90%;
-        margin: 0 auto; /* Center images on smaller screens */
+        margin: 0 auto;
     }
 }
 
-/* Clase específica para el contenedor de la torta, para agregar margen superior */
-.cake-container {
-    margin-top: 1em; /* Esto empujará la torta hacia abajo el equivalente al tamaño de la fuente actual */
+/* Ajustes específicos para elevar el contenido */
+.container {
+    margin-top: -2cm; /* Reduce el espacio en la parte superior del contenedor */
 }
 
-/* O puedes aplicar el margen directamente a la clase existente si prefieres no agregar clases adicionales */
-.col-12.col-xl-6.mx-auto {
-    margin-top: 1em; /* Asegúrate de que esta clase no afecte otros elementos con la misma clase */
+.row {
+    margin-top: -1cm; /* Reduce el espacio en la parte superior de cada fila */
 }
