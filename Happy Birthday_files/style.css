@@ -72,10 +72,6 @@ img {
     z-index: 99999999;
 }
 
-h2 {
-    word-wrap: break-word; /* Asegura que las palabras se rompan si es necesario */
-    overflow-wrap: break-word; /* Alternativa para navegadores más nuevos */
-}
 
 
 .area {
